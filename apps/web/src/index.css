@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-bg text-ink font-sans antialiased}
+.glow{background:radial-gradient(60% 50% at 70% 0%,rgba(139,92,246,.22),transparent 70%),radial-gradient(40% 40% at 10% 20%,rgba(56,189,248,.12),transparent 70%)}
+.btn{@apply inline-flex items-center justify-center gap-2 rounded-lg px-4 min-h-[44px] text-sm font-medium transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-sky disabled:opacity-50}
+.btn-p{@apply btn bg-brand text-white hover:bg-violet-500}.btn-s{@apply btn border border-line bg-card hover:bg-elev}
+.input{@apply w-full min-h-[44px] rounded-lg border border-line bg-bg2 px-3 text-sm focus:outline-2 focus:outline-sky}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
