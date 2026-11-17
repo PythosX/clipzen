@@ -1,0 +1,1 @@
+{"name":"clipzen","private":true,"workspaces":["apps/web","workers/api"],"scripts":{"dev:web":"npm -w apps/web run dev","dev:api":"npm -w workers/api run dev","migrate:local":"npm -w workers/api run migrate:local"}}
